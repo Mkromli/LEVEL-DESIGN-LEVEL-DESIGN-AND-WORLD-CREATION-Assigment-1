@@ -3762,7 +3762,7 @@ GameObject:
   - component: {fileID: 1145898979}
   - component: {fileID: 1145898978}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3857,18 +3857,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1145898976}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -9.25}
+  m_LocalRotation: {x: -0, y: -0.86602515, z: -0, w: 0.50000054}
+  m_LocalPosition: {x: 0, y: 0, z: -22.927}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1328418930}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -120, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.25, y: 4.25}
+  m_AnchoredPosition: {x: 23.834, y: 6.537}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145898983
@@ -6057,6 +6057,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968509689850151134, guid: c4ec1e5e5c3495b438212e7e81f9b673,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7891825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968509689850151134, guid: c4ec1e5e5c3495b438212e7e81f9b673,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7891825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1968509689850151134, guid: c4ec1e5e5c3495b438212e7e81f9b673,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7891825
       objectReference: {fileID: 0}
     - target: {fileID: 1968509689850151134, guid: c4ec1e5e5c3495b438212e7e81f9b673,
         type: 3}
