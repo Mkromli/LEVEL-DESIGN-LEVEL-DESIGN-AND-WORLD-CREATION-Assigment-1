@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7393060612560441428}
   - component: {fileID: 7934176906932732348}
   - component: {fileID: -5444198101453373515}
+  - component: {fileID: 4096249356160829212}
   m_Layer: 0
   m_Name: Gun Platform
   m_TagString: Untagged
@@ -128,3 +129,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeBeforeDelete: 5
+--- !u!114 &4096249356160829212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2523577319500345526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb6fb2c4ff99ee49a1867c9b4b77149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
